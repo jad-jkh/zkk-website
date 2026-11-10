@@ -31,6 +31,7 @@ Static site for ZKK Consulting LLC (zkkconsulting.com). This branch redesigns it
 | Paste-ready prompts, run in order | `docs/prompts/01` to `06` |
 | Current site inventory (title, meta, H1, JSON-LD per page) | `docs/source/site_inventory.tsv` |
 | Memory: decisions, site facts, brand, preferences | `docs/memory/` |
+| Sample report page images for the 3D stack (generic template pages) | `assets/report/` |
 | LinkedIn / Instagram brand and content prompts | `docs/social/` |
 
 ## Preview and checks

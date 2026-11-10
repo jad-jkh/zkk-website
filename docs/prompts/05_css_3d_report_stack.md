@@ -5,7 +5,7 @@ Paste into a Claude Code session in this repo. Read CLAUDE.md first.
 ```
 Build one element only: a "report stack" on the home page hero, right half of the green band (#133423), visible at viewport widths of 900px and up.
 
-Content: three images of ZKK report pages (cover, contents, table page) at /assets/report/cover.avif, contents.avif, table.avif with .webp fallbacks via <picture>, each 480x621 (US Letter ratio), about 40 KB. Use the template sample pages. Never a client's report. Alt text: "ZKK report cover page", "ZKK report contents page", "ZKK report table page".
+Content: three images of ZKK report pages already in the repo: /assets/report/cover.webp, contents.webp, table.webp (PNG fallbacks of the same names via <picture>; AVIF optional). Cover and contents are portrait US Letter (961x1243). table is the landscape appendix page (1243x961): show it at the same card width with its own aspect ratio, no cropping. They are the generic ZKK Word template v22 sample pages. Never use a client's report. Alt text: "ZKK report cover page", "ZKK report contents page", "ZKK report table page".
 
 Technology: CSS 3D transforms only. No Three.js, no canvas, no animation library.
 - Wrapper: perspective: 1400px; aspect-ratio reserved so there is no layout shift.
