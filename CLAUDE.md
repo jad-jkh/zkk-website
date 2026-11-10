@@ -29,6 +29,7 @@ Static site for ZKK Consulting LLC (zkkconsulting.com). This branch redesigns it
 | Full plan: audit, tokens, components, SEO, AI search, 3D | `docs/redesign/ZKK_Website_Redesign_Instructions.md` |
 | Report style source of truth | `docs/redesign/ZKK_Report_Format_Spec_v22.txt` |
 | Paste-ready prompts, run in order | `docs/prompts/01` to `06` |
+| Overnight autonomous run of all stages | `docs/prompts/00_overnight_run_all.md` |
 | Current site inventory (title, meta, H1, JSON-LD per page) | `docs/source/site_inventory.tsv` |
 | Memory: decisions, site facts, brand, preferences | `docs/memory/` |
 | Sample report page images for the 3D stack (generic template pages) | `assets/report/` |
