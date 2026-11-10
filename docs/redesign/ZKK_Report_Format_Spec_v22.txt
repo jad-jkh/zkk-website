@@ -1,0 +1,141 @@
+ZKK CONSULTING LLC: REPORT FORMAT SPECIFICATION (Word template v22)
+Paste this whole file into any agent that writes or builds ZKK client reports.
+Source of truth: ZKK_Word_Template_v22.dotx (Letter, portrait). Build every client report FROM that template. Do not recreate the look by hand.
+
+======================================================================
+0. HARD RULES (apply to every ZKK document)
+======================================================================
+- No em dashes and no en dashes anywhere in text. Use a colon, comma or "to".
+- Section headings are numbered "1. ", "2. ", "3. " (sub-headings "1.1", "1.2"). Never "Section 1 -".
+- The legal link is always https://zkkconsulting.com/legal (display text "zkkconsulting.com/legal", link text "Read the Full Disclaimers Here").
+- No shadows, clip art, emoji or decorative icons. No accent lines under titles other than the gold rule on Heading 1.
+- Plain, direct sentences. Lead with the answer. No filler.
+- Numbers: lining figures (Cormorant Garamond headings use the lining-numerals setting). Tables use tabular figures.
+- Pricing tables: 13-column master (Config ID, Category / Subtype, Manufacturer / Brand, Catalog / SKU #, Exact Specs, Pack Size, Total Pack Price, Per-Unit Price (USD), Evidence Tag, Channel / Seller, Source URL / Details, As-of Date, Notes / Flags). Allowed evidence tags only: [Published list], [Federal contract], [Hospital study], [Client], [Modeled]. Per-unit = pack price / pack size. No averaging, no estimating. Flag outliers in Notes, never drop them.
+- Always render the finished document to PDF and look at every page before delivering (cover, contents, one body page, appendix).
+
+======================================================================
+1. FONTS
+======================================================================
+- Headings, titles, TOC, hero numbers: Cormorant Garamond (Regular, Bold, Italic). Headings are bold.
+- Body, labels, tables, header/footer, disclaimer: Inter (variable, plus Inter Italic).
+- Fonts ship in the template zip (fonts folder). Install them before opening the template, or Word substitutes other fonts.
+- Theme: major font = Cormorant Garamond, minor font = Inter.
+
+======================================================================
+2. COLOURS (hex)
+======================================================================
+- Cover band green ............. 133423
+- Deep green (titles, H1, H3) ... 013220
+- Mid green (H2, links) ......... 0B4A32
+- Gold (rules, eyebrows, bars) .. B8860B
+- Light gold (cover key finding)  E5B93C
+- Gold ink (labels on cream) .... 8A6508
+- Brown (small labels) .......... 7A5523
+- Cream (cover/contents page) ... F3ECDF (text on dark: FBF9F3)
+- Rule / divider ................ CDBFA3 (light row line E3DCCB)
+- Body text ..................... 1A1A1A
+- Muted grey-green (disclaimer, running header) 5F6F66
+- TOC level 2 grey .............. 6B6B6B
+- White on green ................ FFFFFF
+Theme slots: dk2 013220, accent1 0B4A32, accent3 8A6508, accent5 E5B93C.
+
+======================================================================
+3. PAGE SETUP
+======================================================================
+- US Letter portrait, 12240 x 15840 twips. Margins: left/right 1.0 in (1440), top 0.4 in (576), bottom 0.75 in (1080), header 0.2 in, footer 0.5 in.
+- Different first page (cover). Page numbers restart at 1 after the contents page and count body pages only.
+- Appendix is a separate LANDSCAPE section with its own full-width header and footer.
+- Body default: Inter 10.5 pt, colour 1A1A1A, line spacing about 1.16, 8 pt after paragraphs.
+
+======================================================================
+4. PAGE 1: COVER (cream background)
+======================================================================
+Top strip (cream), left to right:
+ - Eyebrow "PREPARED FOR" (small gold caps, letter-spaced).
+ - Client logo slot: dashed gold box labelled "CLIENT LOGO" (replace with the client logo picture; keep it left, height about 0.5 in).
+ - Thin vertical rule, then "ZKK CONSULTING LLC  ·  REF. ZKK-XXX-00" in small letter-spaced caps.
+ - ZKK logo top right (green logo with gold dot), aligned to the right margin.
+Green band (full bleed):
+ - Fill 133423. The band is 400 twips (about 0.28 in) WIDER than the page, 200 on each side, so it still covers the edge after PDF export. Text insets are increased by the same 200 so text position does not move. Never shrink the band back to exactly page width.
+ - Inside: eyebrow "TYPE OF WORK BEING DONE" (gold, small caps, spaced).
+ - Title: Cormorant Garamond (theme major font), 40 pt, colour FBF9F3 (cream-white), ends with a period ("Title of Work.").
+ - Key finding / promise: same font and 40 pt, italic, light gold E5B93C, one line or two.
+ - Thin hairline rule (gold-tinted) under it, full text width.
+ - "Delivered to First Last on Month DD, YYYY" (white, names and date bold).
+ - Two columns separated by a thin vertical rule: "First Mid Init. Last" (Cormorant, 15 pt, colour FBF9F3) with small grey line "Written by · 00/00/0000"; and the same for "Reviewed by · 00/00/0000". Initials/dates follow the guide's Checked-by convention.
+Below the band (cream):
+ - "CONTEXT" eyebrow (gold ink), then one or two sentences on the question the report answers and what the reader will take away.
+ - "IN THIS REPORT" eyebrow, then a three-row table with gold top rule and light divider lines: gold number "01", "02", "03" (Cormorant, 18 pt, B8860B), bold deep-green section title (Cormorant, 15 pt, 013220), and a one-line description in brown/ink small text (8.5 pt).
+ - Fourth row: bold italic "Bottom line" (Cormorant 15 pt, 013220) and 2 to 3 plain sentences: the answer, how sure we are, what it means for the client.
+Footer: disclaimer block (see section 9).
+
+======================================================================
+5. PAGE 2: CONTENTS (cream background)
+======================================================================
+- "Contents" in TOC Heading style: Cormorant/Inter bold, 48 pt, colour 013220, 18 pt space before and after.
+- Live Word TOC (levels 1 to 2), clickable, NO dot leaders, right-aligned page numbers at 10280 twips.
+- TOC 1: bold, 14 pt, colour 111111, 18 pt before, 5 pt after, numbered "1. Title".
+- TOC 2: regular, 14 pt, colour 6B6B6B, indented 0.3 in, numbered "1.1".
+- Bottom of page (footer): client logo slot bottom left, ZKK logo bottom right. No disclaimer on this page.
+- Update the field after writing: right-click TOC > Update Field > Update entire table.
+
+======================================================================
+6. BODY PAGES (white background)
+======================================================================
+Running header (pages 3+):
+ - Thin green/gold bar at the very top, then left: running title in small caps-style text "TITLE OF WORK   |   page number" (title in 013220 bold about 12 pt, divider in gold, number in green). Right: ZKK logo, small.
+ - Replace "TITLE OF WORK" once in the header.
+Headings (all numbered, keep-with-next, never orphaned at a page bottom):
+ - Heading 1: Cormorant Garamond bold 22 pt, colour 013220, numbering "1. " (no tab, number flush left), 12 pt before and after, ~1 pt GOLD (B8860B) bottom border with 6 pt gap. Each major section starts a new page only when the report plan says so.
+ - Heading 2: bold 16 pt, colour 0B4A32, numbering "1.1", 12 pt before, 4 pt after.
+ - Heading 3: Inter bold 11 pt, colour 013220, no space after (used for figure/table titles with "Figure n." / "Table n.").
+ - Heading 4: small figure/table title style.
+ - Appendix headings are unnumbered Heading 1/2: "Appendix A." and "A.1" so they still feed the contents.
+Body text (style Styled Body): Inter 10.5 pt, 1A1A1A, left aligned, 8 pt after.
+Eyebrow label (style ZKK Eyebrow): Inter bold 8 pt, ALL CAPS, letter-spacing +1.5 pt, gold B8860B.
+Bullets: standard Word bullets, Inter, indented 0.25 in, 3 pt after. Keep bullets short, one idea each.
+Source line (style Source): small italic grey under every table or figure: "Source: ..." with date.
+Citations: style Citations, small text, numbered; link text is green 0B4A32 underlined.
+Hyperlinks: colour 0B4A32, underlined.
+Callout / stat boxes: light grey or cream fill (F2F2F2 / F3ECDF), small gold or ink caps label on top, large green value below.
+
+======================================================================
+7. TABLES (style "ZKK Table")
+======================================================================
+- Font Inter 9 pt, colour 1A1A1A. Cell padding: 4 pt top and bottom, 5 pt left and right. Cell paragraph spacing 0 (tight rows).
+- Header row: fill green (0B4A32 / 133423), text white bold, repeats on every page, cantSplit rows.
+- Top border 1 pt gold B8860B, bottom border light CDBFA3, inside horizontal hairlines E3DCCB. No vertical lines.
+- Banded rows: cream tint on every second row.
+- Numbers right-aligned, text left-aligned. Put a Source line under the table.
+- Tip: on new tables set header-row text to white and bold manually; Word's Normal colour can override style colour.
+- Wide tables (the 13-column pricing log) go in the landscape Appendix section.
+
+======================================================================
+8. FIGURES / CHARTS
+======================================================================
+- Use the palette above: green 013220/0B4A32, gold B8860B/E5B93C, neutrals CDBFA3, 6B6B6B. One accent per chart. No gridline clutter, no 3D, no shadows.
+- Title above in Heading 3 ("Figure 1. ..."), Source line below.
+
+======================================================================
+9. FOOTER / DISCLAIMER (cover and every body page)
+======================================================================
+Inter 7 pt, colour 5F6F66, small gap above, same width on cover and body pages. Exact text:
+"Disclaimer: Reports, models, and other deliverables provided by ZKK Consulting LLC are business research and analysis only. They are not legal, regulatory, medical, tax, accounting, or investment advice, and are not a guarantee of funding, regulatory clearance, reimbursement, or financial results. Reimbursement and coding information reflects publicly available sources as of the report date and is not billing or coding guidance. ZKK Consulting LLC does not provide advice or recommendations in those fields. Clients remain responsible for their own regulatory, coding, clinical, and business decisions. Additional information can be found at zkkconsulting.com/legal. Read the Full Disclaimers Here."
+- "Read the Full Disclaimers Here" is a hyperlink to https://zkkconsulting.com/legal (green 0B4A32, underlined).
+
+======================================================================
+10. TYPICAL REPORT STRUCTURE
+======================================================================
+Cover > Contents > 1. Summary (answer first, bottom line) > 2. Scope and confirmed configurations > one numbered section per category or work stream (profiles, price ranges, basis) > Method > Appendix (landscape): Source Log / evidence tables, each source with an evidence tag and saved copy ID.
+Client-facing wording: plain, specific, no internal notes, no draft chatter, no "TBD" left in.
+
+======================================================================
+11. BUILD CHECKLIST (for any agent producing a report)
+======================================================================
+1. Start from ZKK_Word_Template_v22.dotx; keep its styles, headers, footers and cover table. Do not restyle.
+2. Replace cover placeholders; add client logo; keep the band bleed.
+3. Use Heading 1/2 styles so numbering ("1. ", "1.1") and the TOC work. Do not type numbers by hand in headings.
+4. No em/en dashes. Legal link exactly https://zkkconsulting.com/legal.
+5. Update the TOC field, render to PDF, inspect cover (band reaches both page edges), contents, a body page, and the landscape appendix.
+6. Deliver the .docx plus the PDF preview.
