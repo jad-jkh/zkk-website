@@ -41,6 +41,7 @@
         <li><a href="/expertise/">Expertise</a></li>
         <li><a href="/insights/">Insights</a></li>
         <li><a href="/team/">Team</a></li>
+        <li><a href="/contact/">Contact</a></li>
         <li><a class="btn btn-primary" href="/intake/">Book a discovery call</a></li>
       </ul>
     </nav>
@@ -54,43 +55,21 @@
         Tell us a little about what you need so we can understand the question and make the discovery call
         useful. Most fields are optional. Answer what you can, and we will work through the rest together.
       </p>
-<p class="price-anchor">
+<p>
 <span>Research engagements start at <strong>$999</strong>.</span>
 <a href="/services/">See services &amp; pricing</a>
 </p>
 </section>
-<section>
+<section class="cream">
 <div class="form-success" hidden="" id="formSuccess">
 <strong>Received. Thank you.</strong> We will reply within one business day to confirm fit, suggest a
       scope, and offer a few times for a discovery call.
     </div>
-<div class="intake-layout">
-<aside aria-hidden="true" class="stepper" id="stepper">
-<div class="step-item is-active" data-step="1">
-<div><div class="step-dot">1</div><div class="step-rail"></div></div>
-<div class="step-text"><div class="step-name">About you</div><div class="step-hint">Contact details</div></div>
-</div>
-<div class="step-item" data-step="2">
-<div><div class="step-dot">2</div><div class="step-rail"></div></div>
-<div class="step-text"><div class="step-name">Your business</div><div class="step-hint">Organization, market, and offering</div></div>
-</div>
-<div class="step-item" data-step="3">
-<div><div class="step-dot">3</div><div class="step-rail"></div></div>
-<div class="step-text"><div class="step-name">Your research question</div><div class="step-hint">The decision or question</div></div>
-</div>
-<div class="step-item" data-step="4">
-<div><div class="step-dot">4</div></div>
-<div class="step-text"><div class="step-name">Scope &amp; timing</div><div class="step-hint">Budget, timing, and materials</div></div>
-</div>
-<div class="stepper-aside">
-<strong>We work across industries.</strong>
-          Your industry, service, or role does not need to be listed here. Choose the closest option or
-          describe your need in your own words. Custom research is welcome.
-        </div>
-</aside>
-<div>
-<div class="progress-bar" hidden="" id="progressBar"><i></i></div>
-<form action="https://formsubmit.co/info@zkkconsulting.com" class="zform intake-panel" enctype="multipart/form-data" id="intakeForm" method="POST">
+
+
+
+
+<form action="https://formsubmit.co/info@zkkconsulting.com" class="zform" enctype="multipart/form-data" id="intakeForm" method="POST">
 <input name="_subject" type="hidden" value="New client intake from zkkconsulting.com"/>
 <input name="_cc" type="hidden" value="zolomon@zkkconsulting.com,jad@zkkconsulting.com"/>
 <input name="_template" type="hidden" value="table"/>
@@ -100,7 +79,7 @@
 <fieldset class="fstep" data-step="1">
 <div class="fstep-head">
 <div class="fstep-num">Step 1 of 4</div>
-<div class="fstep-title">About you</div>
+<h2 class="fstep-title">About you</h2>
 <p class="fstep-sub">So we know who we are speaking with and how to reach you.</p>
 </div>
 <div class="row">
@@ -154,7 +133,7 @@
 <fieldset class="fstep" data-step="2">
 <div class="fstep-head">
 <div class="fstep-num">Step 2 of 4</div>
-<div class="fstep-title">Your business</div>
+<h2 class="fstep-title">Your business</h2>
 <p class="fstep-sub">Share enough context to help us understand the market, offering, and research question.</p>
 </div>
 <div class="row">
@@ -176,9 +155,9 @@
 <option selected="" value="">Prefer not to say</option>
 <option>Pre-revenue</option>
 <option>Under $250K</option>
-<option>$250K – $1M</option>
-<option>$1M – $10M</option>
-<option>$10M – $50M</option>
+<option>$250K to $1M</option>
+<option>$1M to $10M</option>
+<option>$10M to $50M</option>
 <option>Over $50M</option>
 </select>
 </div>
@@ -198,7 +177,7 @@
 <option>Professional or financial services</option>
 <option>Other (please specify)</option>
 </select>
-<span class="hint">Do not see your industry? Choose “Other.” We research across industries.</span>
+<span class="hint">Do not see your industry? Choose "Other." We research across industries.</span>
 </div>
 <div class="field">
 <label for="fGeo">Primary geographic market</label>
@@ -245,12 +224,12 @@
 <fieldset class="fstep" data-step="3">
 <div class="fstep-head">
 <div class="fstep-num">Step 3 of 4</div>
-<div class="fstep-title">Your research question</div>
+<h2 class="fstep-title">Your research question</h2>
 <p class="fstep-sub">The most useful starting point is the decision the research needs to support.</p>
 </div>
 <div class="field">
 <label for="fQuestion">What is the research problem or question?</label>
-<textarea id="fQuestion" maxlength="900" name="research_question" placeholder="e.g., “We need a market-size estimate for an investor conversation,” or “We are deciding which customer segment to prioritize.”" required=""></textarea>
+<textarea id="fQuestion" maxlength="900" name="research_question" placeholder="e.g., "We need a market-size estimate for an investor conversation," or "We are deciding which customer segment to prioritize."" required=""></textarea>
 </div>
 <div class="field">
 <label for="fBackground">Project background <span class="opt">(optional)</span></label>
@@ -308,7 +287,7 @@
 <fieldset class="fstep" data-step="4">
 <div class="fstep-head">
 <div class="fstep-num">Step 4 of 4</div>
-<div class="fstep-title">Scope &amp; timing</div>
+<h2 class="fstep-title">Scope &amp; timing</h2>
 <p class="fstep-sub">Timelines are set individually with each client. Sharing any deadline or timing constraint helps us scope the work realistically.</p>
 </div>
 <div class="row">
@@ -317,9 +296,9 @@
 <select id="fBudget" name="budget_range">
 <option selected="" value="">Prefer not to say</option>
 <option>Under $1,000</option>
-<option>$1,000 – $2,500</option>
-<option>$2,500 – $5,000</option>
-<option>$5,000 – $10,000</option>
+<option>$1,000 to $2,500</option>
+<option>$2,500 to $5,000</option>
+<option>$5,000 to $10,000</option>
 <option>Over $10,000</option>
 <option>Not sure, advise me</option>
 </select>
@@ -373,7 +352,7 @@
 <label for="fNotes">Anything else we should know? <span class="opt">(optional)</span></label>
 <textarea id="fNotes" maxlength="700" name="anything_else" placeholder="NDA requests, confidentiality constraints, internal stakeholders, deadlines, or anything else that may shape the work."></textarea>
 </div>
-<div class="confid-note">
+<div class="scope-note">
 <span>
 <strong>Before you share proprietary information.</strong> Information submitted through this
                 form is treated as private. This form does not itself create an NDA or other confidentiality
@@ -390,8 +369,8 @@
 <p class="form-note">Your intake goes straight to our inbox. We reply within one business day.</p>
 </fieldset>
 </form>
-<div class="next-strip">
-<div class="next-title">What happens next</div>
+<div>
+<h2>What happens next</h2>
 <ol>
 <li><strong>Within one business day:</strong> We review your request and reply to confirm whether it is a fit.</li>
 <li><strong>Discovery call:</strong> We discuss your business, market, and the decision the research needs to support.</li>
@@ -399,10 +378,8 @@
 <li><strong>Delivery:</strong> We provide the agreed deliverables, walk through the findings, and invoice the remaining 50% on completion.</li>
 </ol>
 </div>
-<div class="deposit-strip" id="payment">
-<div class="deposit-head">
-            How payment works
-          </div>
+<div id="payment">
+<h2>How payment works</h2>
 <p>
             Nothing is payable through this form. If we agree to move forward, we send a
             <strong>Statement of Work</strong> confirming the scope, deliverables, timeline, and price. After
@@ -410,7 +387,7 @@
             SOW, the deposit, and the materials needed to begin. The <strong>remaining 50% is invoiced on
             completion</strong>, after the agreed deliverable is provided.
           </p>
-<p class="deposit-secure">
+<p>
 <strong>Invoices are processed securely through Stripe. ZKK Consulting does not receive or store your card details.
           </strong></p>
 <p>
@@ -422,8 +399,8 @@
             email us directly. Payment, cancellation, and refund terms are set out in the Statement of Work.
           </p>
 </div>
-</div>
-</div>
+
+
 </section>
 </main>
   <footer class="site-footer">
@@ -437,6 +414,9 @@
           <li><a href="/medical-device-competitive-landscape/">Medical device competitive landscape analysis</a></li>
           <li><a href="/market-sizing-for-startups/">Market sizing for startups</a></li>
           <li><a href="/market-research-cost/">What market research costs for a startup</a></li>
+          <li><a href="/engineering-led-product-consulting/">Engineering-led product consulting</a></li>
+          <li><a href="/competitive-pricing-analysis/">Competitive pricing analysis</a></li>
+          <li><a href="/product-strategy-research/">Product strategy research</a></li>
         </ul>
       </div>
       <div>
@@ -446,6 +426,7 @@
           <li><a href="/expertise/">Specialized expertise</a></li>
           <li><a href="/insights/">Insights</a></li>
           <li><a href="/team/">Team</a></li>
+          <li><a href="/about/">About</a></li>
           <li><a href="/faq/">FAQ</a></li>
           <li><a href="/referrals/">Referral program</a></li>
         </ul>
@@ -454,6 +435,7 @@
         <h2>Contact</h2>
         <ul>
           <li><a href="/intake/">Book a discovery call</a></li>
+          <li><a href="/contact/">Contact</a></li>
           <li><a href="mailto:info@zkkconsulting.com">info@zkkconsulting.com</a></li>
           <li><a href="https://www.linkedin.com/company/zkkconsulting" rel="noopener">LinkedIn</a></li>
         </ul>
