@@ -7,3 +7,4 @@
 | 3 CSS 3D report stack | 2b23e77 | Done. 900 px and up, static without JS or with reduced motion. Lighthouse home: 100/100/100. |
 | 4 SEO pass | af49967 | Done. Table in docs/overnight/seo_table.tsv. Lighthouse 100 on home, service, insight, legal. |
 | 5 AI-search pass | 9c458fd | Done. No named byline or reviewer (not supplied). Notes in docs/overnight/ai_search_notes.md. |
+| 6 Final QA | b0b069b | Done. Independent audit, fixes applied and re-checked. See REPORT.md. |
