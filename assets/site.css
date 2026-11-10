@@ -167,13 +167,14 @@ a:hover { color: var(--zkk-green-deep); }
 /* Report stack: the one 3D element (home hero, 900px and up) */
 .stack { display: none; }
 @media (min-width: 900px) {
-  .stack { display: block; position: relative; width: min(100%, 23rem); aspect-ratio: 961 / 1243; margin: 0 auto;
+  .stack { display: block; position: relative; width: min(100%, 24rem); aspect-ratio: 1 / 1.25; margin: 0 auto;
     perspective: 1400px; --tx: 0; --ty: 0; --sp: 0; }
-  .stack picture { position: absolute; top: 0; left: 0; width: 86%; transform-style: preserve-3d; }
+  .stack picture { position: absolute; top: 0; left: 0; width: 82%;
+    transform: rotateY(calc(-18deg + var(--tx) * 4deg)) rotateX(calc(6deg + var(--ty) * 4deg)) translate3d(var(--x), 0, var(--z)); }
   .stack img { width: 100%; border: 1px solid var(--zkk-rule); background: var(--zkk-cream); }
-  .stack picture:nth-child(1) { transform: rotateY(calc(-18deg + var(--tx) * 4deg)) rotateX(calc(6deg + var(--ty) * 4deg)) translate3d(calc(56px + var(--sp) * 24px), 0, -80px); top: 12%; }
-  .stack picture:nth-child(2) { transform: rotateY(calc(-18deg + var(--tx) * 4deg)) rotateX(calc(6deg + var(--ty) * 4deg)) translate3d(calc(28px + var(--sp) * 12px), 0, -40px); }
-  .stack picture:nth-child(3) { transform: rotateY(calc(-18deg + var(--tx) * 4deg)) rotateX(calc(6deg + var(--ty) * 4deg)) translate3d(0, 0, 0); }
+  .stack picture:nth-child(1) { --x: calc(56px + var(--sp) * 12px); --z: -80px; top: 20%; }
+  .stack picture:nth-child(2) { --x: calc(28px + var(--sp) * 6px); --z: -40px; }
+  .stack picture:nth-child(3) { --x: 0px; --z: 0px; }
 }
 
 /* Sections */
@@ -368,3 +369,4 @@ h2.eyebrow { border: 0; padding: 0; margin: var(--space-6) 0 var(--space-3); }
 section > .cover-list, section > .toc-list { max-width: 60rem; }
 .callout .note { border: 0; padding: 0; margin: 0; }
 @media (max-width: 639px) { .zkk-table.stack-sm caption { display: block; } }
+@media (max-width: 639px) { .zkk-table.stack-sm tbody th a, .zkk-table.stack-sm tbody th a:visited { color: var(--zkk-white); } }
