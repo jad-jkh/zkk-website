@@ -1,68 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Page Not Found | ZKK Consulting</title>
-  <meta name="robots" content="noindex" />
-  <meta name="theme-color" content="#fbfaf7" />
-
-  <link rel="icon" href="/favicon.ico" sizes="any" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#F3ECDF">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preload" href="/assets/fonts/cormorant-garamond-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/inter-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/site.css">
-  <style>
-    body { display: flex; flex-direction: column; min-height: 100vh; }
-    .nf-main { flex: 1; display: flex; align-items: center; justify-content: center; padding: 140px 6vw 60px; text-align: center; }
-    .nf-inner { max-width: 620px; }
-    .nf-links { margin-top: 2rem; font-size: .88rem; color: var(--muted); }
-    .nf-links a { color: var(--navy); font-weight: 500; text-decoration: none; }
-    .nf-links a:hover { text-decoration: underline; }
-  </style>
+  <script>document.documentElement.className='js'</script>
 </head>
 <body>
-
-  <nav id="nav">
-    <a href="/" class="nav-logo" aria-label="ZKK Consulting LLC, home">
-      <img class="nav-mark" src="/ZKK_logo.png" alt="" aria-hidden="true">
-    </a>
-    <a href="/" class="nav-back">&larr; Back to site</a>
-  </nav>
-
-  <main class="nf-main">
-    <div class="nf-inner">
-      <div class="eyebrow">Error 404</div>
-      <h1>This page doesn't exist.</h1>
-      <p class="lede" style="color:var(--muted);">
-        The link may be out of date, or the address may have a typo in it. Everything on the site is
-        reachable from the homepage.
-      </p>
-      <div class="hero-ctas" style="margin-top:2rem;">
-        <a href="/" class="btn btn-primary">Go to homepage</a>
-        <a href="/services/" class="btn btn-outline">Services &amp; pricing</a>
-        <a href="mailto:info@zkkconsulting.com" class="btn btn-outline">Email us</a>
-      </div>
-      <p class="nf-links">
-        <a href="/work/">Our Work</a> &middot;
-        <a href="/expertise/">Expertise</a> &middot;
-        <a href="/team/">Team</a> &middot;
-        <a href="/ads/">Campaigns</a> &middot;
-        <a href="/referrals/">Referrals</a> &middot;
-        <a href="/legal/">Legal</a>
-      </p>
-    </div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="logo" href="/" aria-label="ZKK Consulting, home"><img src="/assets/logo.webp" width="80" height="36" alt=""></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="/services/">Services</a></li>
+        <li><a href="/work/">Work</a></li>
+        <li><a href="/expertise/">Expertise</a></li>
+        <li><a href="/insights/">Insights</a></li>
+        <li><a href="/team/">Team</a></li>
+        <li><a href="/contact/">Contact</a></li>
+        <li><a class="btn btn-primary" href="/intake/">Book a discovery call</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="main">
+  <section class="cream">
+    <p class="eyebrow">Error 404</p>
+    <h1 class="contents-title">This page doesn't exist.</h1>
+    <p class="intro">The link may be out of date, or the address may have a typo in it. Everything on the site is reachable from the pages below.</p>
+    <p class="eyebrow sub">Contents</p>
+    <ul class="toc-list">
+      <li><a href="/">Home</a><p class="desc">Engineering-led product consulting for startups and device teams.</p></li>
+      <li><a href="/services/">Services and pricing</a><p class="desc">Packages, patent landscape research, add-ons and bundles.</p></li>
+      <li><a href="/work/">Work and sample reports</a><p class="desc">Independent samples you can open and read.</p></li>
+      <li><a href="/expertise/">Specialized expertise</a><p class="desc">FDA, FCC, electronics and engineering research.</p></li>
+      <li><a href="/insights/">Insights</a><p class="desc">Guides on market sizing, patent landscapes and competitor analysis.</p></li>
+      <li><a href="/team/">Team</a><p class="desc">Zolomon Kaliser, Founder. Jad Haddad, Co-Founder.</p></li>
+      <li><a href="/contact/">Contact</a><p class="desc">Email addresses and the discovery call form.</p></li>
+      <li><a href="/legal/">Legal notices and disclaimers</a></li>
+    </ul>
+    <p><a href="mailto:info@zkkconsulting.com">Email us at info@zkkconsulting.com</a></p>
+  </section>
   </main>
-
-  <footer>
-    <div class="footer-bottom" style="border-top:none;padding-top:0;">
-      <p class="footer-entity"><strong>ZKK Consulting LLC</strong> is a Texas limited liability company.</p>
-      <p>&copy; 2026 ZKK Consulting LLC. &nbsp;&middot;&nbsp; <a href="/legal/">Legal &amp; Disclaimers</a></p>
+  <footer class="site-footer">
+    <div class="footer-cols">
+      <div>
+        <p class="footer-head">Services</p>
+        <ul>
+          <li><a href="/services/">Services and pricing</a></li>
+          <li><a href="/patent-landscape-research/">Patent landscape analysis for startups</a></li>
+          <li><a href="/medical-device-patent-landscape/">Medical device patent landscape research</a></li>
+          <li><a href="/medical-device-competitive-landscape/">Medical device competitive landscape analysis</a></li>
+          <li><a href="/market-sizing-for-startups/">Market sizing for startups</a></li>
+          <li><a href="/market-research-cost/">What market research costs for a startup</a></li>
+          <li><a href="/engineering-led-product-consulting/">Engineering-led product consulting</a></li>
+          <li><a href="/competitive-pricing-analysis/">Competitive pricing analysis</a></li>
+          <li><a href="/product-strategy-research/">Product strategy research</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-head">Company</p>
+        <ul>
+          <li><a href="/work/">Work and sample reports</a></li>
+          <li><a href="/expertise/">Specialized expertise</a></li>
+          <li><a href="/insights/">Insights</a></li>
+          <li><a href="/team/">Team</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/faq/">FAQ</a></li>
+          <li><a href="/referrals/">Referral program</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-head">Contact</p>
+        <ul>
+          <li><a href="/intake/">Book a discovery call</a></li>
+          <li><a href="/contact/">Contact</a></li>
+          <li><a href="mailto:info@zkkconsulting.com">info@zkkconsulting.com</a></li>
+          <li><a href="https://www.linkedin.com/company/zkkconsulting" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-head">Legal</p>
+        <ul>
+          <li><a href="/legal/">Legal notices and disclaimers</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-legal">
+      <p>Disclaimer: Reports, models, and other deliverables provided by ZKK Consulting LLC are business research and analysis only. They are not legal, regulatory, medical, clinical, tax, accounting, or investment advice, and are not a guarantee of funding, regulatory clearance, reimbursement, patent outcomes, or financial results. Regulatory, patent, and reimbursement research reflects publicly available sources as of the report date. Clients remain responsible for their own regulatory, legal, clinical, and business decisions and should retain qualified professionals where determinations or representation are required. <a href="/legal/">Read the Full Disclaimers Here</a>.</p>
+      <p>ZKK Consulting LLC is a Texas limited liability company. Zolomon Kaliser, Founder. Jad Haddad, Co-Founder. &copy; 2026 ZKK Consulting LLC. All rights reserved.</p>
     </div>
   </footer>
-
+  <script src="/assets/site.js" defer></script>
 </body>
 </html>
