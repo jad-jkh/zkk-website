@@ -22,3 +22,5 @@ These are the builder's calls, not Jad's. Change any of them.
 7. Team page: capacitor-bank animation embed, project photos and employer logos removed. Files left in the repo, unlinked.
 8. Section cream/white alternation dropped on long-form pages (white reading pages, per plan 4.3).
 9. Nav "Menu" is a text button, no icon.
+10. `/legal/` section 7: "intake or review form" changed to "intake form" (review form removed). Needs Jad's confirmation.
+11. Eyebrow gold on web is `#8A6508` on light and `#E5B93C` on green, not `#B8860B`, for contrast.
