@@ -370,3 +370,4 @@ section > .cover-list, section > .toc-list { max-width: 60rem; }
 .callout .note { border: 0; padding: 0; margin: 0; }
 @media (max-width: 639px) { .zkk-table.stack-sm caption { display: block; } }
 @media (max-width: 639px) { .zkk-table.stack-sm tbody th a, .zkk-table.stack-sm tbody th a:visited { color: var(--zkk-white); } }
+.contents-title span { display: block; font: 400 var(--fs-h3)/1.2 var(--font-serif); color: var(--zkk-green-mid); margin-top: var(--space-2); }

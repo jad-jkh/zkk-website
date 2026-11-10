@@ -1,0 +1,29 @@
+url	title	title_len	desc_len	h1	jsonld_types
+/	Engineering-Led Product Consulting & Market Research | ZKK	58	148	Engineering-led product consulting for startups and device teams	Organization,Person,WebSite
+/404.html	Page Not Found | ZKK Consulting	31	0	This page doesn't exist.	
+/about/	About ZKK Consulting LLC: Two-Person Consulting Firm	52	149	About ZKK Consulting LLC	AboutPage,BreadcrumbList,Organization
+/competitive-pricing-analysis/	Competitive Pricing Analysis for Product Teams | ZKK	52	149	Competitive pricing analysis	BreadcrumbList,Service
+/contact/	Contact ZKK Consulting: Email and Discovery Call	48	141	Contact ZKK Consulting	BreadcrumbList,ContactPage,Organization
+/engineering-led-product-consulting/	Engineering-Led Product Consulting for Startups | ZKK	53	141	Engineering-led product consulting	BreadcrumbList,Service
+/expertise/	Medical Device & Electronics Market Research | ZKK	50	154	Medical device and electronics research: where we bring deeper technical expertise	BreadcrumbList
+/faq/	Market Research Engagement FAQ: Price, Terms | ZKK	50	141	Frequently asked questions about market research engagements	BreadcrumbList,FAQPage
+/insights/	Market Research & Patent Landscape Guides | ZKK	47	142	Insights Market research and patent landscape guides	BreadcrumbList
+/intake/	Book a Discovery Call | ZKK Consulting	38	146	Book a discovery call.	
+/legal/	Legal Notices & Disclaimers | ZKK Consulting	44	151	Legal notices and disclaimers.	BreadcrumbList
+/market-research-cost/	What Market Research Costs for a Startup | ZKK	46	153	What market research costs for a startup	BreadcrumbList,FAQPage,Service
+/market-sizing-for-startups/	Market Sizing for Startups: TAM, SAM, SOM | ZKK	47	148	Market sizing for startups	BreadcrumbList,FAQPage,Service
+/medical-device-competitive-landscape/	Medical Device Competitive Landscape Analysis | ZKK	51	156	Medical device competitive landscape analysis	BreadcrumbList,FAQPage,Service
+/medical-device-patent-landscape/	Medical Device Patent Landscape Research | ZKK	46	156	Medical device patent landscape research	BreadcrumbList,FAQPage,Service
+/patent-landscape-research/	Patent Landscape Analysis for Startups: $1,349 | ZKK	52	153	Patent landscape analysis for startups	BreadcrumbList,FAQPage,Service
+/product-strategy-research/	Product Strategy Research for Startups | ZKK	44	157	Product strategy research	BreadcrumbList,Service
+/referrals/	Referral Program: 15% Off Your Next Package | ZKK	49	157	Referral program: know a business that could use us?	BreadcrumbList
+/services/	Market Research Packages and Pricing from $999 | ZKK	52	149	Market research packages, tailored to the question	BreadcrumbList,Service
+/team/	Zolomon Kaliser and Jad Haddad: Research Team | ZKK	51	143	Zolomon Kaliser and Jad Haddad: the people doing the research	BreadcrumbList,Person
+/work/	Market Research Case Studies & Sample Reports | ZKK	51	159	Sample reports and case studies: what the research produces	BreadcrumbList
+/insights/competitor-analysis-for-pitch-deck/	Competitor Analysis for a Pitch Deck | ZKK	42	153	How to build a competitor analysis for your pitch deck	Article,BreadcrumbList,FAQPage
+/insights/consultant-vs-diy-ai-research/	Research Consultant vs DIY and AI Research | ZKK	48	157	Research consultant vs doing it yourself or with AI tools	Article,BreadcrumbList,FAQPage
+/insights/how-to-do-a-patent-landscape-search/	How to Do a Patent Landscape Search | ZKK	41	153	How to do a patent landscape search	Article,BreadcrumbList,FAQPage
+/insights/how-to-size-a-market-for-a-new-device/	How to Size a Market for a New Device | ZKK	43	154	How to size a market for a new device	Article,BreadcrumbList,FAQPage
+/insights/landscape-vs-freedom-to-operate/	Patent Landscape vs Freedom to Operate | ZKK	44	150	Patent landscape vs freedom to operate: what each one is	Article,BreadcrumbList,FAQPage
+/insights/tam-sam-som-medical-devices/	TAM, SAM, and SOM for Medical Devices | ZKK	43	152	TAM, SAM, and SOM for medical devices	Article,BreadcrumbList,FAQPage
+/work/fall-detection-sample/	Wrist-Worn Fall Detection Research Sample | ZKK	47	153	Market, patent, and commercial research for wrist-worn fall detection	Article,BreadcrumbList,FAQPage
